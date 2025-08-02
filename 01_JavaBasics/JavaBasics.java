@@ -74,27 +74,47 @@ public class JavaBasics {
 
         //Operators in Java - Arithmetic,Relational,Logical,Bitwise,Assigment
 
-        int a = 10, b = 5;
-        System.out.println("Add = "+(a+b));
-        System.out.println("Subtract = "+(a-b));
-        System.out.println("Divde = "+(a/b));
-        System.out.println("Modulo(reminder) = "+(a%b));
-        int c = 10;
-        int d = ++c;                  // Pre Increment
-        System.out.println("c: "+c);
-        System.out.println("d: "+d);
+        // int a = 10, b = 5;
+        // System.out.println("Add = "+(a+b));
+        // System.out.println("Subtract = "+(a-b));
+        // System.out.println("Divde = "+(a/b));
+        // System.out.println("Modulo(reminder) = "+(a%b));
+        // int c = 10;
+        // int d = ++c;                  // Pre Increment
+        // System.out.println("c: "+c);
+        // System.out.println("d: "+d);
 
-        int e = c++;                  // Post Increment  
-        System.out.println("c: "+c);
-        System.out.println("d: "+e);
+        // int e = c++;                  // Post Increment  
+        // System.out.println("c: "+c);
+        // System.out.println("d: "+e);
 
-        int f = --c;                  // Pre Decrement
-        System.out.println("c: "+c);
-        System.out.println("f: "+f);
+        // int f = --c;                  // Pre Decrement
+        // System.out.println("c: "+c);
+        // System.out.println("f: "+f);
 
-        int g = c--;                  // Post Decrement
-        System.out.println("c: "+c);
-        System.out.println("g: "+g);
+        // int g = c--;                  // Post Decrement
+        // System.out.println("c: "+c);
+        // System.out.println("g: "+g);
+
+        //Relational Operator (== != > < >= <= )
+        // int a= 10;
+        // int b = 10;
+        // System.err.println((a==b));
+        // System.out.println((a!=b));
+        // System.out.println((a>b));
+        // System.out.println((a<b));
+        // System.out.println((a>=b));
+        // System.out.println((a<=b));
+
+        // Logical Operators (&& || !)
+        // System.out.println((3>2)&&(5<0));
+        // System.out.println((3>2)||(5<0));
+
+        // Assignment Operator (= += -= *= /=)
+        int A = 10;
+        //A = A + 10;
+        A += 10;
+        System.out.println(A); 
 
     }
 }
