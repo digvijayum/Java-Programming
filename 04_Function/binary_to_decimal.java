@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class binary_to_decimal {
 
     public static void bintodec(int binnum){
@@ -6,7 +8,13 @@ public class binary_to_decimal {
         int decNum = 0;
 
         while(binnum>0){
-            int lastDigit = binnum % 10;
+            int lastDigit = binnum % 10; // last digit of number
+
+            if(lastDigit!=0 && lastDigit!=1){
+                System.out.println("Invalid binary number!");
+                return;
+            }
+
             decNum = decNum + (lastDigit * (int)Math.pow(2, pow));
             pow++;
             binnum = binnum / 10;
@@ -14,6 +22,10 @@ public class binary_to_decimal {
         System.out.println("decimal of "+mynum+" = "+decNum);
     }
     public static void main(String[] args){
-        bintodec(101);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter binary number: ");
+        int bin = sc.nextInt(); 
+        bintodec(bin);
+        sc.close();
     }
 }
