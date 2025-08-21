@@ -1,6 +1,6 @@
 public class getLargestAndSmallest {
 
-    public static int getLargestAndSmallest(int numbers[]){
+    public static int get_Largest_And_Smallest(int numbers[]){
         int Largest = Integer.MIN_VALUE; //-infinity
         int Smallest = Integer.MAX_VALUE; //+infinity
 
@@ -19,7 +19,7 @@ public class getLargestAndSmallest {
     public static void main(String[] args){
         int numbers[] = {1, 2, 4, 6, 8, 3};
 
-        System.out.println("Largest Number: "+getLargestAndSmallest(numbers));
+        System.out.println("Largest Number: "+get_Largest_And_Smallest(numbers));
 
     }
 }
