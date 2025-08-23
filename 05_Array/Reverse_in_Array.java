@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 public class Reverse_in_Array {
 
     public static void reverseInArray(int arr[]){
